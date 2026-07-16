@@ -29,32 +29,42 @@ Power Bi is a Microsoft based business intelligence tool that helps in creating 
 The page structure of dashboard includes 2 pages ie. MTD overview & same period last year. Following below  various indicators are created that are helpful in decision making ----
 
 ****KPI cards are categorised into total sales, total quantity, transactions & average price.
+
 ****With the help of bar charts the data on the basis of total sales by mobile model are depicted.
+
 ****Funnel Chart is prepared which depicts ratings by rating status.
 	Ratings are further categorized into using DAX switch true function as mentioned below:
 							 *Good 
 							 * Poor  
 							 *Average 
+							 
 ****Pie charts is created to extract transactions by payment method.Payments methods involves below methods-
 							 * UPI
 							 * Debit Card
 							 * Credit Card
 							 * Cash
+							 
 ****Line chart is created to depict the total quantity of sales by monthly basis.
+
 ****DAX ie. Digital analytical expression are used in order to arive at year on year revenue workings in form of MTD, QTD & YTD, same period last year, switch true functions etc.
+
 ****Table is created to highlight the top brands on the basis of total sales & transactions and another table is created to depict total sales Vs last year data .
+
 **** Several Charts such as column & bar charts are created to depict following data extractions-
 							 *Total sales by mobile model
 							 *Total sales by city
 							 *Total sales & year on year same period last year by year
 							 *Total sales & year on year same period last year by quarter
 							 *Total sales & year on year same period last year by month
+							 
 *****Area chart is created in order to visualize total sales by day name.
+
 ****Slicers are added in order to filter interactive tables & charts using buttons. Slicers for following are added -
 							 * Mobile model
 							 * Month wise
 							 * Payment Method
 							 * Year, Quarter, Month, day 
+							 
 **** Page navigators are added in order to navigate through different pages seamlessly ie. 
 							 * MTD Report
 							 * Same Period Last year
@@ -66,18 +76,25 @@ The page structure of dashboard includes 2 pages ie. MTD overview & same period 
 ## Findings
 
 - **Customers Demographics**: The dataset includes customers from various cities across entire India actively purchasing different Brand mobiles among their various category of mobile models.
-- **Revenue Trends**: There are certain Brands  having particular mobile model such as Iphone, a premium brand having large market share & constant demand among different customers across all regions. 
-    Also brands like Xiaomi & vivo are dealing in both affordable & premium category mobiles having a fair amount of market share as well.
+  
+- **Revenue Trends**: There are certain Brands  having particular mobile model such as Iphone, a premium brand having large market share & constant demand among different customers across all regions.
+ Also brands like Xiaomi & vivo are dealing in both affordable & premium category mobiles having a fair amount of market share as well.
+
 - **Brand Insights**: The analysis identifies the brands summarized on basis of mobile models, their frequent order frequency , sales and profit analysis.
-- **Mobile Sales revenue- YOY revenue is analysed , with the help of DAX functions data is visualized and compared as Today Vs same period last year.
+  
+- **Mobile Sales revenue**- YOY revenue is analysed , with the help of DAX functions data is visualized and compared as Today Vs same period last year.
     Also revenue  trends are distributed among date heirarchy as well.
 	
 ## Reports
 
 - **Customer Summary**: A detailed report summarizing total customers , their cities , their purchasing power & intesrest are evaluated on basis of mobile order frequency & price constarints if any are analysed.
-- **Revenue trend  Analysis**: Insights into revenue trend among year, quarter, day & same period lat year.
+- 
+- **Revenue trend  Analysis**: Insights into revenue trend among year, quarter, day & same period last year.
+- 
 - **Purchasing Power Analyis**: Customers ratings are evalauted on basis of good, avearge & poor. The status shows how the customer is a KINGPIN in any business & how bad ratings & fewer ratings counts can affet the brand sales in the long run.
+- 
 - **Brand Market Share**: Reports on top Brands  & mobile models and unique customers served per quantity sold, total revenue earned & total transactions incurred brand wise.
+  
 
 ## Conclusion
 
